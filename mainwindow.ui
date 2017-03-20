@@ -24,35 +24,24 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="3">
-      <widget class="QPlainTextEdit" name="plainTextEdit_4"/>
-     </item>
-     <item row="0" column="2">
-      <widget class="QPlainTextEdit" name="plainTextEdit_3"/>
+     <item row="0" column="1">
+      <widget class="NetworkLockingPlainTextEdit" name="plainTextEdit_2"/>
      </item>
      <item row="0" column="0">
-      <widget class="QPlainTextEdit" name="plainTextEdit"/>
-     </item>
-     <item row="0" column="1">
-      <widget class="QPlainTextEdit" name="plainTextEdit_2"/>
-     </item>
-     <item row="1" column="0">
-      <widget class="QPlainTextEdit" name="plainTextEdit_5"/>
-     </item>
-     <item row="1" column="1">
-      <widget class="QPlainTextEdit" name="plainTextEdit_6"/>
-     </item>
-     <item row="1" column="2">
-      <widget class="QPlainTextEdit" name="plainTextEdit_7"/>
-     </item>
-     <item row="1" column="3">
-      <widget class="QPlainTextEdit" name="plainTextEdit_8"/>
+      <widget class="NetworkLockingPlainTextEdit" name="plainTextEdit"/>
      </item>
     </layout>
    </widget>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>NetworkLockingPlainTextEdit</class>
+   <extends>QPlainTextEdit</extends>
+   <header>networklockingplaintextedit.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
