@@ -25,10 +25,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    networklockingplaintextedit.cpp
+    networklockingplaintextedit.cpp \
+    lockingclient.cpp
 
 HEADERS  += mainwindow.h \
-    networklockingplaintextedit.h
+    networklockingplaintextedit.h \
+    lockingclient.h
 
 FORMS    += mainwindow.ui
 
